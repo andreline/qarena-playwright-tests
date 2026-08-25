@@ -1,0 +1,23 @@
+{
+  "name": "qarena-playwright-tests",
+  "version": "1.0.0",
+  "description": "Automação de testes E2E com Playwright para o QArena (https://qarenaqa.vercel.app/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.3.0",
+    "typescript": "^7.0.2"
+  }
+}

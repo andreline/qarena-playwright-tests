@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM"],
+    "module": "commonjs",
+    "types": ["node"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@pages/*": ["./pages/*"],
+      "@fixtures/*": ["./fixtures/*"],
+      "@test-data/*": ["./test-data/*"],
+      "@helpers/*": ["./helpers/*"]
+    }
+  },
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "fixtures/**/*.ts", "test-data/**/*.ts", "helpers/**/*.ts", "playwright.config.ts"]
+}
